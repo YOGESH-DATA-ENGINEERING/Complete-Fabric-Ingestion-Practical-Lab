@@ -139,6 +139,9 @@ All screenshots for this practical are available here:
 5. destination - warehouse
 6. validate and run pipeline.
 
+### 📸 Screenshots
+All screenshots for this practical are available here:  
+👉[View Screenshots](https://github.com/YOGESH-DATA-ENGINEERING/Complete-Fabric-Ingestion-Practical-Lab/tree/main/Practical%204%20-%20copy%20data%20(Lakehouse%20to%20Warehouse)/Screenshots)
 
 
 ### 🧑‍💻 Author
