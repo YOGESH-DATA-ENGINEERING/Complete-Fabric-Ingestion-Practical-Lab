@@ -146,6 +146,24 @@ All screenshots for this practical are available here:
 ---
 ## 🔹 Practical 5: Dataflow Gen2 → Lakehouse
 
+### 🛠 Steps
+1. Go to Workspace - **Lakehouse**
+2. Get Data - New Dataflow Gen2 - Dataflow1
+3. Link to file: Selected
+4. File path or URL: https://raw.githubusercontent.com/MicrosoftLearning/dp-data/main/orders.csv
+5. Connection: Create new connection
+6. Connection name: Specify a unique name
+7. data gateway: (none)
+8. Authentication kind: Anonymous
+9. next + create
+10. Add column - custom column - MonthNo, Data type - Whole Number | formula : =Date.Month([OrderDate])
+11. Add Destination -
+12. Open Dataflow - view Diagram 
+13. Add Dataflow to pipeline and run pipeline
+
+
+
+---
 ### 🧑‍💻 Author
 Yogesh Salve
 Fabric Data Engineer | SQL | Streaming | Analytics
