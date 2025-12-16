@@ -132,6 +132,14 @@ All screenshots for this practical are available here:
 
 ## 🔹 Practical 4: Copy Data → Warehouse (pipeline)
 
+### 🛠 Steps
+1. Go to Workspace - create new **warehouse**
+2. **Copy Data** - add to canvas. 
+4. source - Lakehouse table
+5. destination - warehouse
+6. validate and run pipeline.
+
+
 
 ### 🧑‍💻 Author
 Yogesh Salve
