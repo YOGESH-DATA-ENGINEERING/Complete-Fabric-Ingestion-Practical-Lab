@@ -97,8 +97,22 @@ Event Source → Eventstream → KQL Database → Real-Time Analytics
 ```sql
 select * from stream_stocks
 ```
-
 ---
+
+## 🔹 Practical 3: Copy Data → Lakehouse (pipeline)
+
+### 🛠 Steps
+1. Go to Workspace - Lakehouse
+2. Add New item - **pipeline** 
+3. **Copy Data** - add to canvas. 
+4. In lakehouse upload csv in **Files**/new_folder 
+5. source - Lakehouse
+6. root folder - Files, give file path , brows - select uploaded csv file. ,
+7. File Format - Deliitted Text
+8. validate and run pipeline. 
+---
+
+
 
 ### 🧑‍💻 Author
 Yogesh Salve
