@@ -1,1 +1,80 @@
-# Complete-Fabric-Ingestion-Practical-Lab
+# 🚀 Microsoft Fabric Ingestion Practical Lab – Complete Roadmap (All Methods)
+
+This repository contains **hands-on practical labs** covering **ALL data ingestion methods in Microsoft Fabric** — batch, streaming, low-code, and enterprise-grade patterns.
+
+---
+
+## 🎯 Objectives
+
+- Understand **when and why** to use each ingestion method in Fabric
+- Gain **hands-on experience** with real-time and batch ingestion
+- Build a **production-oriented ingestion mindset**
+- Prepare for **DP-700 (Fabric Data Engineer Associate)**
+
+---
+
+## 🧰 Tools & Services Used
+
+- Microsoft Fabric
+- Eventstream
+- KQL Database (Real-Time Analytics)
+- Lakehouse (OneLake / Delta tables)
+- Data Pipelines
+- Copy Job
+- Dataflow Gen2
+- Spark Notebooks
+- Sample datasets (Bike telemetry, CSV, SQL tables)
+
+---
+
+# ⭐ SECTION 1 — Real-Time / Streaming Ingestion Labs
+
+## 🔹 Practical 1: Eventstream → KQL Database (Real-Time Ingestion)
+
+### 📌 Objective
+Ingest **real-time streaming data** into a **KQL Database** using **Eventstream** and query it using KQL.
+
+---
+
+### 🛠 Steps
+
+1. Go to **Real-Time**
+2. Click **Add Data**
+3. Connect Sample Scenario **Stock Market**
+4. Give **Source Name** , **Eventstream** and click connect. 
+5. Go to Workspace -> Eventstream - You can see preview data. 
+6. Give destination in pipeline , provide KQL tabe name and click publish. 
+7. Go to KQL database - KQL Queryset  - write a query 
+
+---
+
+### 🔍 What to Observe
+
+- Live records appear in **Preview data**
+- Schema auto-created in KQL Database
+- Continuous ingestion without manual triggers
+
+---
+
+### 🧪 Validation Query (KQL)
+
+```kql
+StockEventhouse
+| take 10
+
+```
+
+### 🏗 Architecture Flow
+
+Event Source → Eventstream → KQL Database → Real-Time Analytics
+
+
+### 🧑‍💻 Author
+Yogesh Salve
+Fabric Data Engineer | SQL | Streaming | Analytics
+
+### 📌 This repository is part of my Microsoft Fabric hands-on learning and DP-700 preparation journey.
+
+### ⭐ If you find this useful Please ⭐ star the repo and feel free to fork or contribute!
+
+## Happy Learning 🚀
