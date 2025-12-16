@@ -57,16 +57,31 @@ Ingest **real-time streaming data** into a **KQL Database** using **Eventstream*
 ---
 
 ### 🧪 Validation Query (KQL)
-
+### Use "take" to view a sample number of records in the table and check the data.
 ```kql
 StockEventhouse
 | take 10
 
 ```
 
+### See how many records are in the table.
+```kql
+StockEventhouse
+| count
+```
+
+### This query returns the number of ingestions per hour in the given table.
+```kql
+StockEventhouse
+| summarize IngestionCount = count() by bin(ingestion_time(), 1h)
+```
+
 ### 🏗 Architecture Flow
 
 Event Source → Eventstream → KQL Database → Real-Time Analytics
+
+<img width="885" height="207" alt="image" src="https://github.com/user-attachments/assets/ba80acb7-6adf-4d9c-9ec6-a9a53250bbd4" />
+
 
 
 ### 🧑‍💻 Author
