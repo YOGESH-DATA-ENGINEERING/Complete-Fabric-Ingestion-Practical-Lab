@@ -102,10 +102,13 @@ All screenshots for this practical are available here:
 ```sql
 select * from stream_stocks
 ```
+
 ### 📸 Screenshots
 
 All screenshots for this practical are available here:  
-👉 [View Screenshots](https://github.com/YOGESH-DATA-ENGINEERING/Complete-Fabric-Ingestion-Practical-Lab/tree/main/Practical%201%20-%20Eventstream%20KQL%20Database%20(Real-Time%20Ingestion)/screenshots)
+👉 [View Screenshots](https://github.com/YOGESH-DATA-ENGINEERING/Complete-Fabric-Ingestion-Practical-Lab/tree/main/Practical%202%20-%20Eventstream-Lakehouse(streaming%20to%20Delta)/Screenshots)
+
+
 ---
 # ⭐ SECTION 2 — Batch / ETL / ELT Ingestion Labs
 ## 🔹 Practical 3: Copy Data → Lakehouse (pipeline)
