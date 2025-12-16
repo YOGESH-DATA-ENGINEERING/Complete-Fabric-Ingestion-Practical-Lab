@@ -82,6 +82,11 @@ Event Source → Eventstream → KQL Database → Real-Time Analytics
 
 <img width="885" height="207" alt="image" src="https://github.com/user-attachments/assets/ba80acb7-6adf-4d9c-9ec6-a9a53250bbd4" />
 
+### 📸 Screenshots
+
+All screenshots for this practical are available here:  
+👉 [View Screenshots](https://github.com/YOGESH-DATA-ENGINEERING/Complete-Fabric-Ingestion-Practical-Lab/tree/main/Practical%201%20-%20Eventstream%20KQL%20Database%20(Real-Time%20Ingestion)/screenshots)
+
 ---
 
 ## 🔹 Practical 2: Eventstream → Lakehouse (Streaming to Delta)
