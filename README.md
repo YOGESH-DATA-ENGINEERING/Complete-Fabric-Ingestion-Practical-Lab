@@ -82,7 +82,23 @@ Event Source → Eventstream → KQL Database → Real-Time Analytics
 
 <img width="885" height="207" alt="image" src="https://github.com/user-attachments/assets/ba80acb7-6adf-4d9c-9ec6-a9a53250bbd4" />
 
+---
 
+## 🔹 Practical 2: Eventstream → Lakehouse (Streaming to Delta)
+
+### 🛠 Steps
+1. Use Same Eventstream
+2. Add Destination - Lakeshouse  
+3. give table name - **stream_stocks**
+4. Run - Publish stream.
+5. Go to Lakehouse  -> Check Delta table is generated 
+6. Go to **sql endpoint** -  write a query
+
+```sql
+select * from stream_stocks
+```
+
+---
 
 ### 🧑‍💻 Author
 Yogesh Salve
