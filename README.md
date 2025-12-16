@@ -98,7 +98,7 @@ Event Source → Eventstream → KQL Database → Real-Time Analytics
 select * from stream_stocks
 ```
 ---
-
+# ⭐ SECTION 2 — Batch / ETL / ELT Ingestion Labs
 ## 🔹 Practical 3: Copy Data → Lakehouse (pipeline)
 
 ### 🛠 Steps
@@ -112,6 +112,7 @@ select * from stream_stocks
 8. validate and run pipeline. 
 ---
 
+## 🔹 Practical 4: Copy Data → Warehouse (pipeline)
 
 
 ### 🧑‍💻 Author
