@@ -121,7 +121,13 @@ All screenshots for this practical are available here:
 5. source - Lakehouse
 6. root folder - Files, give file path , brows - select uploaded csv file. ,
 7. File Format - Deliitted Text
-8. validate and run pipeline. 
+8. validate and run pipeline.
+
+### 📸 Screenshots
+
+All screenshots for this practical are available here:  
+👉 [View Screenshots](https://github.com/YOGESH-DATA-ENGINEERING/Complete-Fabric-Ingestion-Practical-Lab/tree/main/Practical%203%20-%20Copy%20Data%20-%20Lakehouse/Screenshots)
+
 ---
 
 ## 🔹 Practical 4: Copy Data → Warehouse (pipeline)
