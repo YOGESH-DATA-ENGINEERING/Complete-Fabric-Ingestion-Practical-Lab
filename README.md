@@ -162,6 +162,12 @@ All screenshots for this practical are available here:
 13. Add Dataflow to pipeline and run pipeline
 
 
+### 📸 Screenshots
+
+All screenshots for **Practical 5 – Dataflow Gen2 to Lakehouse** are available here:  
+👉 [View Screenshots](https://github.com/YOGESH-DATA-ENGINEERING/Complete-Fabric-Ingestion-Practical-Lab/tree/main/Practical%205%20-%20Dataflow%20Gen%202%20%20to%20Lakehouse/Screenshots)
+
+> 📌 Screenshots captured during real hands-on execution of Dataflow Gen2 loading data into a Lakehouse table.
 
 ---
 ### 🧑‍💻 Author
